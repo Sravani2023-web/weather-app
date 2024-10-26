@@ -1,0 +1,49 @@
+/* weather.component.css */
+.form-container.weather-app {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color:rgb(107, 7, 238);
+    color: aliceblue;
+    border: none;
+  }
+ .form-container button:hover{
+    background-color: rgb(59, 18, 59);
+  }
+  
+  .form-container .weather-data {
+    margin-top: 20px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000vh;
+    margin: 0;
+    padding: 20px;
+  
+}
+
+.form-container {
+    background-color:aqua;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80vh;
+    width: 600px;
+    margin-left: 300px;
+    
+}
